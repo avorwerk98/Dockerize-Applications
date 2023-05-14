@@ -1,0 +1,23 @@
+{
+    "name": "cabinfever",
+    "version": "1.0.0",
+    "description": "barebones node on docker",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "npm install",
+      "start": "node http_server.js"
+    },
+    "engines": {
+
+        "node": "14.x"
+    
+      },
+    "author": "abelsan <abel@mit.edu>",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.15.5"
+    }
+  
+  }
+  
